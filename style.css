@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.Navigation{
+ list-style-type: none;
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+ background-color: gray;
+ padding: 65px;
+ margin: -10px;
+ margin-right: -40px;
+}
+
+.Navigation li {
+display: inline;
+margin-right: 20px;
+position: relative;
+top: 25px; 
+
+
+
+}
+.Navigation p{
+ margin: 0;
+ display: flex;
+ justify-content: center;
+ color: white;
+ font-size: 50px;
+ 
+}
+a {
+    text-decoration: none; 
+    color: white;
+    text-shadow: 20px black;
+    top:-100px;
+}
+
+
+.Smycke{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+     margin-top: 10px;
+    background-color: white;
+   
+
+    
+}
+
+.smycke{
+   border: 2px solid gray;
+   text-align: center;
+    padding: 55px;
+    
+    
+}
+
+.smycke img{
+    width: 250px;
+    height: 250px;
+   
+}
+
+
+
+
+.Hijab{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+     margin-top: 10px;
+    
+   
+
+    
+}
+
+
+
+.hijab {
+    border: 2px solid #ccc;
+    text-align: center; 
+    padding: 55px;
+   
+}
+
+.hijab img{
+    width: 250px;
+    height: 250px;
+}
+
+.Mer{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+     margin-top: 10px;
+    
+}
+
+.mer{
+    border: 2px solid #ccc;
+    text-align: center; 
+    padding: 55px;
+    background-color: white;  
+}
+
+.mer img{
+    width: 250px;
+    height: 250px;   
+}
+
+.M{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+     margin-top: 10px;
+    background-color: white;       
+}
+
+.m{
+    border: 2px solid #ccc;
+    text-align: center; 
+    padding: 55px;
+    position: relative;
+   
+      
+}
+
+.m img{
+    height: 250px;
+    width: 250px;
+}
+
+.Bälte{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+     margin-top: 10px;
+      
+}
+
+.bälte{
+    border: 2px solid #ccc;
+    text-align: center; 
+    padding: 55px;
+    
+}
+
+.bälte img{
+    height: 250px;
+    width: 250px; 
+}
+
+.Klistermärke{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+     margin-top: 10px;
+     
+}
+.klistermärke{
+    border: 2px solid #ccc;
+    text-align: center; 
+    padding: 55px;
+    position: relative;
+    right: 35px;
+}
+
+.klistermärke img{
+    height: 250px;
+    width: 250px;  
+}
+.Klistermärke h1{
+    position: relative;
+    right: 20px;
+}
+
+.Egyptiskaprodukter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .egyptiska-produkter {
+    width: 25%;
+    box-sizing: border-box;
+    margin: 10px;
+    padding:10px;
+    border: 2px solid grey;
+    text-align: center;
+  }
+  
+  .egyptiska-produkter img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+.egyptiska-produkter img{
+    height: 250px;
+    width: 250px; 
+}
+
+button{
+padding: 20px;
+border-radius: 10%;
+
+}
+
+button:hover{
+    background-color: lightgray;
+}
+
+footer{
+background-color: black;
+padding: 75px;
+margin-right: -40px;
+
+
+
+}
+
+footer p {
+ display: flex;
+ justify-content: center;
+ font-size: 19px;
+color: white;
+}
